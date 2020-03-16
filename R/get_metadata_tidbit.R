@@ -59,7 +59,7 @@ metadataTidbit <- function(file) {
 }
 
 # Read files 
-lf <- list.files(here::here("data/detail_hobo/"), full.names = TRUE)
+lf <- list.files(here::here("data/hobo_detail/"), full.names = TRUE)
 
 # Get metatada 
 md <- map_dfr(lf, metadataTidbit)

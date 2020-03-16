@@ -25,4 +25,3 @@ Sensorización del enebral en Sierra Nevada.
 
 
 
-y los gEl procedimiento 
