@@ -1,0 +1,127 @@
+﻿Detalles
+Series: Temp, *F
+	Dispositivos
+		Info de dispositivo
+			- Producto: HOBO UTBI-001 TidbiT Temp
+			- Número de serie: 9761922
+			- Número de versión: 0.00
+			- Fabricante: Onset Computer Corporation
+			- Memoria del dispositivo: 65536
+			- Encabezado creado: 06/05/10 09:55:44 a. m. GMT+02:00
+	Info de implementación
+		- Nombre de serie completo: Temperatura, *F
+		- Iniciar descripción: Px-1
+		- Número de implementación: 5
+		- Tiempo de inicio: 04/21/17 10:16:27 a. m. GMT+02:00
+		- Intervalo de registro: 01 h 00 min 00 seg
+		- Iniciar desplazamiento GMT: 2 h 0 min
+		- Batería al inicio: 3,00 Voltios
+		- Programa Comenzando: HOBOware Pro-3.7.9_1028_1025_Windows
+	Estadísticas de serie
+		- Muestras: 22.108
+		- Máx.: 120,756
+		- Mín: 16,225
+		- Prom: 45,656
+		- Desv estand (σ): 15,993
+		- Hora de la primera muestra: 04/21/17 10:16:28 a. m. GMT+02:00
+		- Hora de última muestra: 10/29/19 01:16:28 p. m. GMT+02:00
+Tipo de evento: Acoplador separado
+	Dispositivos
+		Info de dispositivo
+			- Producto: HOBO UTBI-001 TidbiT Temp
+			- Número de serie: 9761922
+			- Número de versión: 0.00
+			- Fabricante: Onset Computer Corporation
+			- Memoria del dispositivo: 65536
+			- Encabezado creado: 06/05/10 09:55:44 a. m. GMT+02:00
+	Info de implementación
+		- Nombre de serie completo: Acoplador separado
+		- Iniciar descripción: Px-1
+		- Número de implementación: 5
+		- Tiempo de inicio: 04/21/17 10:16:27 a. m. GMT+02:00
+		- Iniciar desplazamiento GMT: 2 h 0 min
+		- Batería al inicio: 3,00 Voltios
+	Estadísticas de serie
+		- Muestras: 5
+		- Hora de la primera muestra: 04/21/17 10:16:38 a. m. GMT+02:00
+		- Hora de última muestra: 05/22/19 02:07:05 p. m. GMT+02:00
+Tipo de evento: Acoplador adjunto
+	Dispositivos
+		Info de dispositivo
+			- Producto: HOBO UTBI-001 TidbiT Temp
+			- Número de serie: 9761922
+			- Número de versión: 0.00
+			- Fabricante: Onset Computer Corporation
+			- Memoria del dispositivo: 65536
+			- Encabezado creado: 06/05/10 09:55:44 a. m. GMT+02:00
+	Info de implementación
+		- Nombre de serie completo: Acoplador adjunto
+		- Iniciar descripción: Px-1
+		- Número de implementación: 5
+		- Tiempo de inicio: 04/21/17 10:16:27 a. m. GMT+02:00
+		- Iniciar desplazamiento GMT: 2 h 0 min
+		- Batería al inicio: 3,00 Voltios
+	Estadísticas de serie
+		- Muestras: 5
+		- Hora de la primera muestra: 04/21/17 11:21:30 a. m. GMT+02:00
+		- Hora de última muestra: 10/29/19 02:09:18 p. m. GMT+02:00
+Tipo de evento: Host conectado
+	Dispositivos
+		Info de dispositivo
+			- Producto: HOBO UTBI-001 TidbiT Temp
+			- Número de serie: 9761922
+			- Número de versión: 0.00
+			- Fabricante: Onset Computer Corporation
+			- Memoria del dispositivo: 65536
+			- Encabezado creado: 06/05/10 09:55:44 a. m. GMT+02:00
+	Info de implementación
+		- Nombre de serie completo: Host conectado
+		- Iniciar descripción: Px-1
+		- Número de implementación: 5
+		- Tiempo de inicio: 04/21/17 10:16:27 a. m. GMT+02:00
+		- Iniciar desplazamiento GMT: 2 h 0 min
+		- Batería al inicio: 3,00 Voltios
+	Estadísticas de serie
+		- Muestras: 6
+		- Hora de la primera muestra: 04/21/17 11:21:37 a. m. GMT+02:00
+		- Hora de última muestra: 10/29/19 02:09:44 p. m. GMT+02:00
+Tipo de evento: Batería mala
+	Dispositivos
+		Info de dispositivo
+			- Producto: HOBO UTBI-001 TidbiT Temp
+			- Número de serie: 9761922
+			- Número de versión: 0.00
+			- Fabricante: Onset Computer Corporation
+			- Memoria del dispositivo: 65536
+			- Encabezado creado: 06/05/10 09:55:44 a. m. GMT+02:00
+	Info de implementación
+		- Nombre de serie completo: Batería mala
+		- Iniciar descripción: Px-1
+		- Número de implementación: 5
+		- Tiempo de inicio: 04/21/17 10:16:27 a. m. GMT+02:00
+		- Iniciar desplazamiento GMT: 2 h 0 min
+		- Batería al inicio: 3,00 Voltios
+	Estadísticas de serie
+		- Muestras: 1
+		- Hora de la primera muestra: 01/04/19 11:16:28 p. m. GMT+02:00
+		- Hora de última muestra: 01/04/19 11:16:28 p. m. GMT+02:00
+Tipo de evento: Final de archivo
+	Dispositivos
+		Info de dispositivo
+			- Producto: HOBO UTBI-001 TidbiT Temp
+			- Número de serie: 9761922
+			- Número de versión: 0.00
+			- Fabricante: Onset Computer Corporation
+			- Memoria del dispositivo: 65536
+			- Encabezado creado: 06/05/10 09:55:44 a. m. GMT+02:00
+	Info de implementación
+		- Nombre de serie completo: Final de archivo
+		- Iniciar descripción: Px-1
+		- Número de implementación: 5
+		- Tiempo de inicio: 04/21/17 10:16:27 a. m. GMT+02:00
+		- Iniciar desplazamiento GMT: 2 h 0 min
+		- Batería al inicio: 3,00 Voltios
+	Estadísticas de serie
+		- Muestras: 1
+		- Hora de la primera muestra: 10/29/19 02:09:44 p. m. GMT+02:00
+		- Hora de última muestra: 10/29/19 02:09:44 p. m. GMT+02:00
