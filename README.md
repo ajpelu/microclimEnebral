@@ -23,5 +23,10 @@ Sensorización del enebral en Sierra Nevada.
 ![Expotar detalles](doc/exportar_detalles.png)
   - 5. Ejecutar el script `[./R/get_metadata_tidbit.R`](R/get_metadata_tidbit.R)
 
+## Lectura de los datos de los sensores 
+
+- Abrimos cada archivo hobo presente en [`data/hobo_last`](data/hobo_last) con HOBOWarePro
+- Exportamos cada archivo `.hobo` como `.csv`. Para ello clicamos en "Export Table Data" ![](doc/exportar_data.png), y luego seleccionamos las variables a exportar ![](doc/exportar_data_variables.png). 
+- Los datos se guardan en [`data/hobo_last`](data/hobo_last) con formato `.csv`. 
 
 
