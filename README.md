@@ -20,7 +20,7 @@ Sensorización del enebral en Sierra Nevada.
   - 2. Crear una carpeta con los datos brutos por cada fecha de descarga con el nombre YYYY_MM_DD dentro de [`data/hobo_raw`](data/hobo_raw)
   - 3. Copiar (sobreescribir) los datos brutos a [`data/hobo_last`](data/hobo_last) 
   - 4. Abrir los archivos de `hobo_last` con el software HOBOWarePro y exportar de cada archivo `.hobo` un txt de sus detalles, y guardarlo en [`data/hobo_detail`](data/hobo_detail) 
-![Expotar detalles](doc/exportar_detalles.png | height=300)
+![Expotar detalles](doc/exportar_detalles.png)
   - 5. Ejecutar el script `[./R/get_metadata_tidbit.R`](R/get_metadata_tidbit.R)
 
 
