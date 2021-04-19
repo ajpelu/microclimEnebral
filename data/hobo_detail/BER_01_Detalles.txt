@@ -1,107 +1,107 @@
-﻿Detalles
-Series: Temp, *F
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 20489859
-			- Número de versión: 1.09
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 10/30/18 02:46:25 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Temperatura, *F
-		- Iniciar descripción: BER_01
-		- Número de implementación: 2
-		- Tiempo de inicio: 05/21/19 02:19:43 p. m. GMT+02:00
-		- Intervalo de registro: 01 h 00 min 00 seg
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,10 Voltios
-		- Programa Comenzando: HOBOware -3.7.16_1108_1030_Mac
-	Estadísticas de serie
-		- Muestras: 3.865
-		- Máx.: 126,354
-		- Mín: 28,891
-		- Prom: 64,438
-		- Desv estand (σ): 23,596
-		- Hora de la primera muestra: 05/21/19 02:19:44 p. m. GMT+02:00
-		- Hora de última muestra: 10/29/19 02:19:44 p. m. GMT+02:00
-Tipo de evento: Acoplador separado
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 20489859
-			- Número de versión: 1.09
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 10/30/18 02:46:25 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Acoplador separado
-		- Iniciar descripción: BER_01
-		- Número de implementación: 2
-		- Tiempo de inicio: 05/21/19 02:19:43 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,10 Voltios
-	Estadísticas de serie
-		- Muestras: 3
-		- Hora de la primera muestra: 05/21/19 02:21:59 p. m. GMT+02:00
-		- Hora de última muestra: 05/22/19 01:16:29 p. m. GMT+02:00
-Tipo de evento: Acoplador adjunto
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 20489859
-			- Número de versión: 1.09
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 10/30/18 02:46:25 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Acoplador adjunto
-		- Iniciar descripción: BER_01
-		- Número de implementación: 2
-		- Tiempo de inicio: 05/21/19 02:19:43 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,10 Voltios
-	Estadísticas de serie
-		- Muestras: 3
-		- Hora de la primera muestra: 05/21/19 02:22:43 p. m. GMT+02:00
-		- Hora de última muestra: 10/29/19 02:22:04 p. m. GMT+02:00
-Tipo de evento: Host conectado
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 20489859
-			- Número de versión: 1.09
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 10/30/18 02:46:25 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Host conectado
-		- Iniciar descripción: BER_01
-		- Número de implementación: 2
-		- Tiempo de inicio: 05/21/19 02:19:43 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,10 Voltios
-	Estadísticas de serie
-		- Muestras: 2
-		- Hora de la primera muestra: 05/22/19 01:16:03 p. m. GMT+02:00
-		- Hora de última muestra: 10/29/19 02:22:18 p. m. GMT+02:00
-Tipo de evento: Final de archivo
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 20489859
-			- Número de versión: 1.09
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 10/30/18 02:46:25 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Final de archivo
-		- Iniciar descripción: BER_01
-		- Número de implementación: 2
-		- Tiempo de inicio: 05/21/19 02:19:43 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,10 Voltios
-	Estadísticas de serie
-		- Muestras: 1
-		- Hora de la primera muestra: 10/29/19 02:22:18 p. m. GMT+02:00
-		- Hora de última muestra: 10/29/19 02:22:18 p. m. GMT+02:00
+﻿Details
+Series: Temp, *C
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 20489859
+			- Version Number: 1.09
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 10/30/2018, 14:46:25  GMT+02:00
+	Deployment Info
+		- Full Series Name: Temperature, *C
+		- Launch Name: BER_01
+		- Deployment Number: 2
+		- Launch Time: 05/21/2019, 14:19:43  GMT+02:00
+		- Logging Interval: 01 Hr 00 Min 00 Sec
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.10 Volts
+		- Launching Program: HOBOware -3.7.16_1108_1030_Mac
+	Series Statistics
+		- Samples: 12,140
+		- Max: 52.419
+		- Min: -6.706
+		- Avg: 12.194
+		- Std Dev (σ): 12.780
+		- First Sample Time: 05/21/2019, 14:19:44  GMT+02:00
+		- Last Sample Time: 10/08/2020, 09:19:44  GMT+02:00
+Event Type: Coupler Detached
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 20489859
+			- Version Number: 1.09
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 10/30/2018, 14:46:25  GMT+02:00
+	Deployment Info
+		- Full Series Name: Coupler Detached
+		- Launch Name: BER_01
+		- Deployment Number: 2
+		- Launch Time: 05/21/2019, 14:19:43  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.10 Volts
+	Series Statistics
+		- Samples: 4
+		- First Sample Time: 05/21/2019, 14:21:59  GMT+02:00
+		- Last Sample Time: 10/29/2019, 14:24:28  GMT+02:00
+Event Type: Coupler Attached
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 20489859
+			- Version Number: 1.09
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 10/30/2018, 14:46:25  GMT+02:00
+	Deployment Info
+		- Full Series Name: Coupler Attached
+		- Launch Name: BER_01
+		- Deployment Number: 2
+		- Launch Time: 05/21/2019, 14:19:43  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.10 Volts
+	Series Statistics
+		- Samples: 4
+		- First Sample Time: 05/21/2019, 14:22:43  GMT+02:00
+		- Last Sample Time: 10/08/2020, 10:08:49  GMT+02:00
+Event Type: Host Connected
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 20489859
+			- Version Number: 1.09
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 10/30/2018, 14:46:25  GMT+02:00
+	Deployment Info
+		- Full Series Name: Host Connected
+		- Launch Name: BER_01
+		- Deployment Number: 2
+		- Launch Time: 05/21/2019, 14:19:43  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.10 Volts
+	Series Statistics
+		- Samples: 3
+		- First Sample Time: 05/22/2019, 13:16:03  GMT+02:00
+		- Last Sample Time: 10/08/2020, 10:08:49  GMT+02:00
+Event Type: End Of File
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 20489859
+			- Version Number: 1.09
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 10/30/2018, 14:46:25  GMT+02:00
+	Deployment Info
+		- Full Series Name: End Of File
+		- Launch Name: BER_01
+		- Deployment Number: 2
+		- Launch Time: 05/21/2019, 14:19:43  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.10 Volts
+	Series Statistics
+		- Samples: 1
+		- First Sample Time: 10/08/2020, 10:08:49  GMT+02:00
+		- Last Sample Time: 10/08/2020, 10:08:49  GMT+02:00

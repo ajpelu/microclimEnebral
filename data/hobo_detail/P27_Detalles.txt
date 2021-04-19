@@ -1,147 +1,147 @@
-﻿Detalles
-Series: Temp, *F
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 9780034
-			- Número de versión: 0.00
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 07/01/10 04:53:00 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Temperatura, *F
-		- Iniciar descripción: P27
-		- Número de implementación: 5
-		- Tiempo de inicio: 05/02/17 12:43:51 p. m. GMT+02:00
-		- Intervalo de registro: 01 h 00 min 00 seg
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,00 Voltios
-		- Programa Comenzando: HOBOware Pro-3.7.9_1028_1025_Windows
-	Estadísticas de serie
-		- Muestras: 21.888
-		- Máx.: 137,050
-		- Mín: -138,626
-		- Prom: 52,074
-		- Desv estand (σ): 25,971
-		- Hora de la primera muestra: 05/02/17 12:43:52 p. m. GMT+02:00
-		- Hora de última muestra: 10/31/19 11:43:52 a. m. GMT+02:00
-Tipo de evento: Acoplador separado
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 9780034
-			- Número de versión: 0.00
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 07/01/10 04:53:00 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Acoplador separado
-		- Iniciar descripción: P27
-		- Número de implementación: 5
-		- Tiempo de inicio: 05/02/17 12:43:51 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,00 Voltios
-	Estadísticas de serie
-		- Muestras: 4
-		- Hora de la primera muestra: 05/02/17 12:44:05 p. m. GMT+02:00
-		- Hora de última muestra: 06/05/19 11:05:10 a. m. GMT+02:00
-Tipo de evento: Acoplador adjunto
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 9780034
-			- Número de versión: 0.00
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 07/01/10 04:53:00 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Acoplador adjunto
-		- Iniciar descripción: P27
-		- Número de implementación: 5
-		- Tiempo de inicio: 05/02/17 12:43:51 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,00 Voltios
-	Estadísticas de serie
-		- Muestras: 4
-		- Hora de la primera muestra: 05/02/17 12:51:01 p. m. GMT+02:00
-		- Hora de última muestra: 10/31/19 12:41:26 p. m. GMT+02:00
-Tipo de evento: Host conectado
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 9780034
-			- Número de versión: 0.00
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 07/01/10 04:53:00 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Host conectado
-		- Iniciar descripción: P27
-		- Número de implementación: 5
-		- Tiempo de inicio: 05/02/17 12:43:51 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,00 Voltios
-	Estadísticas de serie
-		- Muestras: 4
-		- Hora de la primera muestra: 05/02/17 12:51:01 p. m. GMT+02:00
-		- Hora de última muestra: 10/31/19 12:41:31 p. m. GMT+02:00
-Tipo de evento: Batería mala
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 9780034
-			- Número de versión: 0.00
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 07/01/10 04:53:00 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Batería mala
-		- Iniciar descripción: P27
-		- Número de implementación: 5
-		- Tiempo de inicio: 05/02/17 12:43:51 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,00 Voltios
-	Estadísticas de serie
-		- Muestras: 29
-		- Hora de la primera muestra: 05/03/17 12:43:52 p. m. GMT+02:00
-		- Hora de última muestra: 10/01/17 10:43:52 p. m. GMT+02:00
-Tipo de evento: Batería buena
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 9780034
-			- Número de versión: 0.00
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 07/01/10 04:53:00 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Batería buena
-		- Iniciar descripción: P27
-		- Número de implementación: 5
-		- Tiempo de inicio: 05/02/17 12:43:51 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,00 Voltios
-	Estadísticas de serie
-		- Muestras: 28
-		- Hora de la primera muestra: 06/11/17 08:43:52 p. m. GMT+02:00
-		- Hora de última muestra: 09/30/17 01:43:52 p. m. GMT+02:00
-Tipo de evento: Final de archivo
-	Dispositivos
-		Info de dispositivo
-			- Producto: HOBO UTBI-001 TidbiT Temp
-			- Número de serie: 9780034
-			- Número de versión: 0.00
-			- Fabricante: Onset Computer Corporation
-			- Memoria del dispositivo: 65536
-			- Encabezado creado: 07/01/10 04:53:00 p. m. GMT+02:00
-	Info de implementación
-		- Nombre de serie completo: Final de archivo
-		- Iniciar descripción: P27
-		- Número de implementación: 5
-		- Tiempo de inicio: 05/02/17 12:43:51 p. m. GMT+02:00
-		- Iniciar desplazamiento GMT: 2 h 0 min
-		- Batería al inicio: 3,00 Voltios
-	Estadísticas de serie
-		- Muestras: 1
-		- Hora de la primera muestra: 10/31/19 12:41:31 p. m. GMT+02:00
-		- Hora de última muestra: 10/31/19 12:41:31 p. m. GMT+02:00
+﻿Details
+Series: Temp, *C
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 9780034
+			- Version Number: 0.00
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 07/01/2010, 16:53:00  GMT+02:00
+	Deployment Info
+		- Full Series Name: Temperature, *C
+		- Launch Name: P27
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:43:51  GMT+02:00
+		- Logging Interval: 01 Hr 00 Min 00 Sec
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.00 Volts
+		- Launching Program: HOBOware Pro-3.7.9_1028_1025_Windows
+	Series Statistics
+		- Samples: 29,975
+		- Max: 59.876
+		- Min: -94.792
+		- Avg: 11.077
+		- Std Dev (σ): 14.247
+		- First Sample Time: 05/02/2017, 12:43:52  GMT+02:00
+		- Last Sample Time: 10/02/2020, 10:43:52  GMT+02:00
+Event Type: Coupler Detached
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 9780034
+			- Version Number: 0.00
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 07/01/2010, 16:53:00  GMT+02:00
+	Deployment Info
+		- Full Series Name: Coupler Detached
+		- Launch Name: P27
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:43:51  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.00 Volts
+	Series Statistics
+		- Samples: 5
+		- First Sample Time: 05/02/2017, 12:44:05  GMT+02:00
+		- Last Sample Time: 10/31/2019, 12:42:38  GMT+02:00
+Event Type: Coupler Attached
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 9780034
+			- Version Number: 0.00
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 07/01/2010, 16:53:00  GMT+02:00
+	Deployment Info
+		- Full Series Name: Coupler Attached
+		- Launch Name: P27
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:43:51  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.00 Volts
+	Series Statistics
+		- Samples: 5
+		- First Sample Time: 05/02/2017, 12:51:01  GMT+02:00
+		- Last Sample Time: 10/02/2020, 10:45:00  GMT+02:00
+Event Type: Host Connected
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 9780034
+			- Version Number: 0.00
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 07/01/2010, 16:53:00  GMT+02:00
+	Deployment Info
+		- Full Series Name: Host Connected
+		- Launch Name: P27
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:43:51  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.00 Volts
+	Series Statistics
+		- Samples: 5
+		- First Sample Time: 05/02/2017, 12:51:01  GMT+02:00
+		- Last Sample Time: 10/02/2020, 10:45:00  GMT+02:00
+Event Type: Bad Battery
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 9780034
+			- Version Number: 0.00
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 07/01/2010, 16:53:00  GMT+02:00
+	Deployment Info
+		- Full Series Name: Bad Battery
+		- Launch Name: P27
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:43:51  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.00 Volts
+	Series Statistics
+		- Samples: 29
+		- First Sample Time: 05/03/2017, 12:43:52  GMT+02:00
+		- Last Sample Time: 10/01/2017, 22:43:52  GMT+02:00
+Event Type: Good Battery
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 9780034
+			- Version Number: 0.00
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 07/01/2010, 16:53:00  GMT+02:00
+	Deployment Info
+		- Full Series Name: Good Battery
+		- Launch Name: P27
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:43:51  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.00 Volts
+	Series Statistics
+		- Samples: 28
+		- First Sample Time: 06/11/2017, 20:43:52  GMT+02:00
+		- Last Sample Time: 09/30/2017, 13:43:52  GMT+02:00
+Event Type: End Of File
+	Devices
+		Device Info
+			- Product: HOBO UTBI-001 TidbiT Temp
+			- Serial Number: 9780034
+			- Version Number: 0.00
+			- Manufacturer: Onset Computer Corporation
+			- Device Memory: 65536
+			- Header Created: 07/01/2010, 16:53:00  GMT+02:00
+	Deployment Info
+		- Full Series Name: End Of File
+		- Launch Name: P27
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:43:51  GMT+02:00
+		- Launch GMT Offset: 2 Hr 0 Min
+		- Battery at Launch: 3.00 Volts
+	Series Statistics
+		- Samples: 1
+		- First Sample Time: 10/02/2020, 10:45:00  GMT+02:00
+		- Last Sample Time: 10/02/2020, 10:45:00  GMT+02:00

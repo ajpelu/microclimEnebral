@@ -3,145 +3,145 @@ Series: Temp, *C
 	Devices
 		Device Info
 			- Product: HOBO UTBI-001 TidbiT Temp
-			- Serial Number: 9695081
+			- Serial Number: 9761976
 			- Version Number: 0.00
 			- Manufacturer: Onset Computer Corporation
 			- Device Memory: 65536
-			- Header Created: 02/02/2010, 17:38:21  GMT+02:00
+			- Header Created: 06/05/2010, 11:09:43  GMT+02:00
 	Deployment Info
 		- Full Series Name: Temperature, *C
-		- Launch Name: P3-2
-		- Deployment Number: 4
-		- Launch Time: 05/02/2017, 12:24:53  GMT+02:00
+		- Launch Name: P3.3
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:29:39  GMT+02:00
 		- Logging Interval: 01 Hr 00 Min 00 Sec
 		- Launch GMT Offset: 2 Hr 0 Min
 		- Battery at Launch: 3.00 Volts
 		- Launching Program: HOBOware Pro-3.7.9_1028_1025_Windows
 	Series Statistics
-		- Samples: 29,976
-		- Max: 54.983
-		- Min: -4.197
-		- Avg: 9.468
-		- Std Dev (σ): 10.126
-		- First Sample Time: 05/02/2017, 12:24:54  GMT+02:00
-		- Last Sample Time: 10/02/2020, 11:24:54  GMT+02:00
+		- Samples: 29,975
+		- Max: 54.754
+		- Min: -3.687
+		- Avg: 8.541
+		- Std Dev (σ): 8.672
+		- First Sample Time: 05/02/2017, 12:29:40  GMT+02:00
+		- Last Sample Time: 10/02/2020, 10:29:40  GMT+02:00
 Event Type: Coupler Detached
 	Devices
 		Device Info
 			- Product: HOBO UTBI-001 TidbiT Temp
-			- Serial Number: 9695081
+			- Serial Number: 9761976
 			- Version Number: 0.00
 			- Manufacturer: Onset Computer Corporation
 			- Device Memory: 65536
-			- Header Created: 02/02/2010, 17:38:21  GMT+02:00
+			- Header Created: 06/05/2010, 11:09:43  GMT+02:00
 	Deployment Info
 		- Full Series Name: Coupler Detached
-		- Launch Name: P3-2
-		- Deployment Number: 4
-		- Launch Time: 05/02/2017, 12:24:53  GMT+02:00
+		- Launch Name: P3.3
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:29:39  GMT+02:00
 		- Launch GMT Offset: 2 Hr 0 Min
 		- Battery at Launch: 3.00 Volts
 	Series Statistics
-		- Samples: 9
-		- First Sample Time: 05/02/2017, 12:25:08  GMT+02:00
-		- Last Sample Time: 10/31/2019, 14:08:44  GMT+02:00
+		- Samples: 5
+		- First Sample Time: 05/02/2017, 12:29:51  GMT+02:00
+		- Last Sample Time: 10/31/2019, 11:39:27  GMT+02:00
 Event Type: Coupler Attached
 	Devices
 		Device Info
 			- Product: HOBO UTBI-001 TidbiT Temp
-			- Serial Number: 9695081
+			- Serial Number: 9761976
 			- Version Number: 0.00
 			- Manufacturer: Onset Computer Corporation
 			- Device Memory: 65536
-			- Header Created: 02/02/2010, 17:38:21  GMT+02:00
+			- Header Created: 06/05/2010, 11:09:43  GMT+02:00
 	Deployment Info
 		- Full Series Name: Coupler Attached
-		- Launch Name: P3-2
-		- Deployment Number: 4
-		- Launch Time: 05/02/2017, 12:24:53  GMT+02:00
+		- Launch Name: P3.3
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:29:39  GMT+02:00
 		- Launch GMT Offset: 2 Hr 0 Min
 		- Battery at Launch: 3.00 Volts
 	Series Statistics
-		- Samples: 9
-		- First Sample Time: 05/02/2017, 12:52:41  GMT+02:00
-		- Last Sample Time: 10/02/2020, 12:10:18  GMT+02:00
+		- Samples: 5
+		- First Sample Time: 05/02/2017, 12:51:37  GMT+02:00
+		- Last Sample Time: 10/02/2020, 10:32:53  GMT+02:00
 Event Type: Host Connected
 	Devices
 		Device Info
 			- Product: HOBO UTBI-001 TidbiT Temp
-			- Serial Number: 9695081
+			- Serial Number: 9761976
 			- Version Number: 0.00
 			- Manufacturer: Onset Computer Corporation
 			- Device Memory: 65536
-			- Header Created: 02/02/2010, 17:38:21  GMT+02:00
+			- Header Created: 06/05/2010, 11:09:43  GMT+02:00
 	Deployment Info
 		- Full Series Name: Host Connected
-		- Launch Name: P3-2
-		- Deployment Number: 4
-		- Launch Time: 05/02/2017, 12:24:53  GMT+02:00
+		- Launch Name: P3.3
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:29:39  GMT+02:00
 		- Launch GMT Offset: 2 Hr 0 Min
 		- Battery at Launch: 3.00 Volts
 	Series Statistics
-		- Samples: 12
-		- First Sample Time: 05/02/2017, 12:52:41  GMT+02:00
-		- Last Sample Time: 10/02/2020, 12:10:42  GMT+02:00
+		- Samples: 5
+		- First Sample Time: 05/02/2017, 12:51:37  GMT+02:00
+		- Last Sample Time: 10/02/2020, 10:33:28  GMT+02:00
 Event Type: Bad Battery
 	Devices
 		Device Info
 			- Product: HOBO UTBI-001 TidbiT Temp
-			- Serial Number: 9695081
+			- Serial Number: 9761976
 			- Version Number: 0.00
 			- Manufacturer: Onset Computer Corporation
 			- Device Memory: 65536
-			- Header Created: 02/02/2010, 17:38:21  GMT+02:00
+			- Header Created: 06/05/2010, 11:09:43  GMT+02:00
 	Deployment Info
 		- Full Series Name: Bad Battery
-		- Launch Name: P3-2
-		- Deployment Number: 4
-		- Launch Time: 05/02/2017, 12:24:53  GMT+02:00
+		- Launch Name: P3.3
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:29:39  GMT+02:00
 		- Launch GMT Offset: 2 Hr 0 Min
 		- Battery at Launch: 3.00 Volts
 	Series Statistics
-		- Samples: 23
-		- First Sample Time: 07/05/2017, 15:24:54  GMT+02:00
-		- Last Sample Time: 08/01/2018, 15:24:54  GMT+02:00
+		- Samples: 5
+		- First Sample Time: 06/09/2017, 18:29:40  GMT+02:00
+		- Last Sample Time: 07/08/2019, 15:29:40  GMT+02:00
 Event Type: Good Battery
 	Devices
 		Device Info
 			- Product: HOBO UTBI-001 TidbiT Temp
-			- Serial Number: 9695081
+			- Serial Number: 9761976
 			- Version Number: 0.00
 			- Manufacturer: Onset Computer Corporation
 			- Device Memory: 65536
-			- Header Created: 02/02/2010, 17:38:21  GMT+02:00
+			- Header Created: 06/05/2010, 11:09:43  GMT+02:00
 	Deployment Info
 		- Full Series Name: Good Battery
-		- Launch Name: P3-2
-		- Deployment Number: 4
-		- Launch Time: 05/02/2017, 12:24:53  GMT+02:00
+		- Launch Name: P3.3
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:29:39  GMT+02:00
 		- Launch GMT Offset: 2 Hr 0 Min
 		- Battery at Launch: 3.00 Volts
 	Series Statistics
-		- Samples: 23
-		- First Sample Time: 07/05/2017, 17:24:54  GMT+02:00
-		- Last Sample Time: 08/01/2018, 23:24:54  GMT+02:00
+		- Samples: 4
+		- First Sample Time: 06/13/2017, 22:29:40  GMT+02:00
+		- Last Sample Time: 06/29/2019, 12:29:40  GMT+02:00
 Event Type: End Of File
 	Devices
 		Device Info
 			- Product: HOBO UTBI-001 TidbiT Temp
-			- Serial Number: 9695081
+			- Serial Number: 9761976
 			- Version Number: 0.00
 			- Manufacturer: Onset Computer Corporation
 			- Device Memory: 65536
-			- Header Created: 02/02/2010, 17:38:21  GMT+02:00
+			- Header Created: 06/05/2010, 11:09:43  GMT+02:00
 	Deployment Info
 		- Full Series Name: End Of File
-		- Launch Name: P3-2
-		- Deployment Number: 4
-		- Launch Time: 05/02/2017, 12:24:53  GMT+02:00
+		- Launch Name: P3.3
+		- Deployment Number: 5
+		- Launch Time: 05/02/2017, 12:29:39  GMT+02:00
 		- Launch GMT Offset: 2 Hr 0 Min
 		- Battery at Launch: 3.00 Volts
 	Series Statistics
 		- Samples: 1
-		- First Sample Time: 10/02/2020, 12:10:42  GMT+02:00
-		- Last Sample Time: 10/02/2020, 12:10:42  GMT+02:00
+		- First Sample Time: 10/02/2020, 10:33:28  GMT+02:00
+		- Last Sample Time: 10/02/2020, 10:33:28  GMT+02:00
