@@ -21,10 +21,9 @@ Sensorización del enebral en Sierra Nevada.
   - 3. Copiar (sobreescribir) los datos brutos a [`data/hobo_last`](data/hobo_last) 
   - 4. Abrir los archivos de `hobo_last` con el software HOBOWarePro y exportar de cada archivo `.hobo` un txt de sus detalles, y guardarlo en [`data/hobo_detail`](data/hobo_detail) 
 
-
-<img src="https://raw.githubusercontent.com/ajpelu/microclimEnebral/master/doc/exportar_detalles.png" height="200">
-
-![Expotar detalles](doc/exportar_detalles.png){:height="300px" width="200px"}
+<p align="center">
+<img src="https://raw.githubusercontent.com/ajpelu/microclimEnebral/master/doc/exportar_detalles.png" height="300">
+</p>
 
 
   - 5. Ejecutar el script `[./R/get_metadata_tidbit.R`](R/get_metadata_tidbit.R)
@@ -32,7 +31,17 @@ Sensorización del enebral en Sierra Nevada.
 ## Lectura de los datos de los sensores 
 
 - Abrimos cada archivo hobo presente en [`data/hobo_last`](data/hobo_last) con HOBOWarePro
-- Exportamos cada archivo `.hobo` como `.csv`. Para ello clicamos en "Export Table Data" ![](doc/exportar_data.png), y luego seleccionamos las variables a exportar ![](doc/exportar_data_variables.png). 
+- Exportamos cada archivo `.hobo` como `.csv`. Para ello clicamos en "Export Table Data" 
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ajpelu/microclimEnebral/master/doc/exportar_data.png" height="300">
+</p>
+
+y luego seleccionamos las variables a exportar 
+<p align="center">
+<img src="https://raw.githubusercontent.com/ajpelu/microclimEnebral/master/doc/exportar_data_variables.png" height="300">
+</p>
+
 - Los datos se guardan en [`data/hobo_last`](data/hobo_last) con formato `.csv`. 
 
 
