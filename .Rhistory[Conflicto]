@@ -1,0 +1,512 @@
+separate(value, into = c("name", "sn"), sep = ":") %>% unique()
+sn
+sn <- f %>%
+dplyr::select(value) %>%
+filter(stringr::str_detect(value, "Número de serie")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>% unique() %>%
+mutate(sn = trimws(sn))
+sn
+# Get numero de serie
+sn <- f %>%
+dplyr::select(value) %>%
+filter(stringr::str_detect(value, "Número de serie")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>% unique() %>%
+mutate(sn = as.numeric(trimws(sn)))
+sn
+str(sn)
+View(df)
+sensor <- f %>%
+dplyr::select(value) %>%
+filter(stringr::str_detect(value, "Iniciar descripción"))
+sensor
+sensor <- f %>%
+dplyr::select(value) %>%
+filter(stringr::str_detect(value, "Iniciar descripción")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>% unique()
+sensor
+sensor <- f %>%
+dplyr::select(value) %>%
+filter(stringr::str_detect(value, "Iniciar descripción")) %>%
+separate(value, into = c("name", "sensor_name"), sep = ":") %>% unique() %>%
+mutate(sensor_name = trimws(sensor_name))
+sensor
+sensor <- f %>%
+dplyr::select(value) %>%
+filter(stringr::str_detect(value, "Iniciar descripción")) %>%
+separate(value, into = c("name", "sensor_name"), sep = ":") %>% unique() %>%
+mutate(sensor_name = trimws(sensor_name)) %>% dplyr::select(sensor_name)
+sensor
+ie
+sn <- f %>%
+dplyr::select(value) %>%
+filter(stringr::str_detect(value, "Número de serie")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>% unique() %>%
+mutate(sn = as.numeric(trimws(sn))) %>%
+dplyr::select(sn)
+sn
+k <- bind_cols(sn, sensor)
+k
+df
+View(f)
+l <- f %>% dplyr::select(value)
+raw <- tibble::enframe(
+read_lines(file = here::here("data/detail_hobo/P21_Detalles.txt")))
+#
+f <- raw %>% dplyr::select(value)
+# Get numero de serie
+sn <- f %>%
+filter(stringr::str_detect(value, "Número de serie")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>% unique() %>%
+mutate(sn = as.numeric(trimws(sn))) %>%
+dplyr::select(sn)
+sn
+sensor <- f %>%
+filter(stringr::str_detect(value, "Iniciar descripción")) %>%
+separate(value, into = c("name", "sensor_name"), sep = ":") %>% unique() %>%
+mutate(sensor_name = trimws(sensor_name)) %>% dplyr::select(sensor_name)
+s <- f %>%
+filter(stringr::str_detect(value, "Hora de la primera muestra"))
+s
+s <- f %>%
+filter(stringr::str_detect(value, "Hora de la primera muestra")) %>%
+separate(value, into = c("name", "sensor_name"), sep = "muestra:")
+s
+s <- f %>%
+filter(stringr::str_detect(value, "Hora de la primera muestra")) %>%
+separate(value, into = c("name", "sensor_name"), sep = "muestra: ")
+s
+s <- f %>%
+filter(stringr::str_detect(value, "Hora de la primera muestra")) %>%
+separate(value, into = c("name", "start"), sep = "muestra: ")
+library(parsedate)
+parse_date(s$start)
+library("parsedate")
+s <- f %>%
+filter(stringr::str_detect(value, "Hora de la primera muestra")) %>%
+separate(value, into = c("name", "start"), sep = "muestra: ") %>%
+mutate(start_time = parsedate::parse_date(start))
+s
+s <- f %>%
+filter(stringr::str_detect(value, "Hora de la primera muestra")) %>%
+separate(value, into = c("name", "start"), sep = "muestra: ") %>%
+mutate(start_time = parsedate::parse_date(start),
+tz = lubridate::tz(start_time))
+s
+s %>% summarise(min(start_time))
+s %>% filter(min(start_time))
+s %>% filter(which.min(start_time))
+s %>% slice(which.min(start_time))
+s <- f %>%
+filter(stringr::str_detect(value, "Hora de la primera muestra")) %>%
+separate(value, into = c("name", "start"), sep = "muestra: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>%
+slice(which.min(start_time))
+s
+s <- f %>%
+filter(stringr::str_detect(value, "Hora de la primera muestra")) %>%
+separate(value, into = c("name", "start"), sep = "muestra: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>%
+slice(which.min(start_time)) %>%
+mutate(tz = lubridate::tz(start_time)) %>%
+dplyr::select(date_raw = start,
+start_time, tz)
+s
+s <- f %>%
+filter(stringr::str_detect(value, "Hora de la primera muestra")) %>%
+separate(value, into = c("name", "start"), sep = "muestra: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>%
+slice(which.min(start_time)) %>%
+mutate(tz = lubridate::tz(start_time)) %>%
+dplyr::select(start_time_raw = start,
+start_time, tz)
+View(f)
+s <- f %>%
+filter(stringr::str_detect(value, "Tiempo de inicio"))
+s
+s <- f %>%
+filter(stringr::str_detect(value, "Tiempo de inicio")) %>%
+separate(value, into = c("name", "start"), sep = "inicio: ") %>%
+mutate(start_time = parsedate::parse_date(start))
+s
+s <- f %>%
+filter(stringr::str_detect(value, "Tiempo de inicio")) %>%
+separate(value, into = c("name", "start"), sep = "inicio: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>% unique()
+s
+s <- f %>%
+filter(stringr::str_detect(value, "Tiempo de inicio")) %>%
+separate(value, into = c("name", "start"), sep = "inicio: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>% unique() %>%
+mutate(tz = lubridate::tz(start_time)) %>%
+dplyr::select(start_time_raw = start,
+start_time, tz)
+s
+View(f)
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:"))
+fin
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(start_time = parsedate::parse_date(fin))
+fin
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(end_time = parsedate::parse_date(fin)) %>%
+mutate(tz = lubridate::tz(end_time)) %>%
+slice(which.max(end_time))
+dplyr::select(end_time_raw = fin,
+end_time, tz)
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(end_time = parsedate::parse_date(fin)) %>%
+mutate(tz = lubridate::tz(end_time))
+fin
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(end_time = parsedate::parse_date(fin)) %>%
+mutate(tz = lubridate::tz(end_time)) %>%
+slice(which.max(end_time)) %>%
+dplyr::select(end_time_raw = fin,
+end_time, tz)
+fin
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(end_time = parsedate::parse_date(fin)) %>%
+mutate(tz = lubridate::tz(end_time)) %>%
+slice(which.max(end_time)) %>%
+dplyr::select(end_time_raw = fin,
+end_time, tz_end = tz)
+fin
+View(f)
+raw <- tibble::enframe(
+read_lines(file = here::here("data/detail_hobo/P21_Detalles.txt")))
+# Me quedo solo con la variable que necesito
+f <- raw %>% dplyr::select(value)
+# Get numero de serie
+sn <- f %>%
+filter(stringr::str_detect(value, "Número de serie")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>% unique() %>%
+mutate(sn = as.numeric(trimws(sn))) %>%
+dplyr::select(sn)
+# Get nombre sensor
+sensor <- f %>%
+filter(stringr::str_detect(value, "Iniciar descripción")) %>%
+separate(value, into = c("name", "sensor_name"), sep = ":") %>% unique() %>%
+mutate(sensor_name = trimws(sensor_name)) %>% dplyr::select(sensor_name)
+# Get hora de inicio
+inicio <- f %>%
+filter(stringr::str_detect(value, "Tiempo de inicio")) %>%
+separate(value, into = c("name", "start"), sep = "inicio: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>% unique() %>%
+mutate(tz = lubridate::tz(start_time)) %>%
+dplyr::select(start_time_raw = start,
+start_time, tz_start = tz)
+# Ger hora de fin
+# %>% slice(which.min(start_time)) %>%
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(end_time = parsedate::parse_date(fin)) %>%
+mutate(tz = lubridate::tz(end_time)) %>%
+slice(which.max(end_time)) %>%
+dplyr::select(end_time_raw = fin,
+end_time, tz_end = tz)
+k <- bind_cols(sensor, sn, inicio, fin)
+k
+metadataTidbit <- function(file){
+require(tidyverse)
+require(lubridate)
+require(parsedate)
+raw <- tibble::enframe(read_lines(file))
+# Me quedo solo con la variable que necesito
+f <- raw %>% dplyr::select(value)
+# Get numero de serie
+sn <- f %>%
+filter(stringr::str_detect(value, "Número de serie")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>% unique() %>%
+mutate(sn = as.numeric(trimws(sn))) %>%
+dplyr::select(sn)
+# Get nombre sensor
+sensor <- f %>%
+filter(stringr::str_detect(value, "Iniciar descripción")) %>%
+separate(value, into = c("name", "sensor_name"), sep = ":") %>% unique() %>%
+mutate(sensor_name = trimws(sensor_name)) %>% dplyr::select(sensor_name)
+# Get hora de inicio
+inicio <- f %>%
+filter(stringr::str_detect(value, "Tiempo de inicio")) %>%
+separate(value, into = c("name", "start"), sep = "inicio: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>% unique() %>%
+mutate(tz = lubridate::tz(start_time)) %>%
+dplyr::select(start_time_raw = start,
+start_time, tz_start = tz)
+# Get hora de fin
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(end_time = parsedate::parse_date(fin)) %>%
+mutate(tz = lubridate::tz(end_time)) %>%
+slice(which.max(end_time)) %>%
+dplyr::select(end_time_raw = fin,
+end_time, tz_end = tz)
+# unir todos
+out <- bind_cols(sensor, sn, inicio, fin)
+return(out)
+}
+metadataTidbit(file = here::here("data/detail_hobo/P21_Detalles.txt"))
+require(tidyverse)
+require(lubridate)
+require(parsedate)
+metadataTidbit <- function(file){
+raw <- tibble::enframe(read_lines(file))
+# Me quedo solo con la variable que necesito
+f <- raw %>% dplyr::select(value)
+# Get numero de serie
+sn <- f %>%
+filter(stringr::str_detect(value, "Número de serie")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>% unique() %>%
+mutate(sn = as.numeric(trimws(sn))) %>%
+dplyr::select(sn)
+# Get nombre sensor
+sensor <- f %>%
+filter(stringr::str_detect(value, "Iniciar descripción")) %>%
+separate(value, into = c("name", "sensor_name"), sep = ":") %>% unique() %>%
+mutate(sensor_name = trimws(sensor_name)) %>% dplyr::select(sensor_name)
+# Get hora de inicio
+inicio <- f %>%
+filter(stringr::str_detect(value, "Tiempo de inicio")) %>%
+separate(value, into = c("name", "start"), sep = "inicio: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>% unique() %>%
+mutate(tz = lubridate::tz(start_time)) %>%
+dplyr::select(start_time_raw = start,
+start_time, tz_start = tz)
+# Get hora de fin
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(end_time = parsedate::parse_date(fin)) %>%
+mutate(tz = lubridate::tz(end_time)) %>%
+slice(which.max(end_time)) %>%
+dplyr::select(end_time_raw = fin,
+end_time, tz_end = tz)
+# unir todos
+out <- bind_cols(sensor, sn, inicio, fin)
+return(out)
+}
+metadataTidbit(file = here::here("data/detail_hobo/P21_Detalles.txt"))
+lf <- list.files(here::here("data/detail_hobo/")
+lf <- list.files(here::here("data/detail_hobo/"))
+lf
+lf <- list.files(here::here("data/detail_hobo/"), full.names = TRUE)
+lf
+map(lf, metadataTidbit)
+ss <- map_dfr(lf, metadataTidbit)
+ss
+View(ss)
+library("purrr")
+?write_csv
+styler:::style_selection()
+# Function para procesar los metadatos de los sensores Tidbit
+library("tidyverse")
+library("here")
+library("parsedate")
+library("purrr")
+metadataTidbit <- function(file) {
+raw <- tibble::enframe(read_lines(file))
+# Me quedo solo con la variable que necesito
+f <- raw %>% dplyr::select(value)
+#  Get numero de serie
+sn <- f %>%
+filter(stringr::str_detect(value, "Número de serie")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>%
+unique() %>%
+mutate(sn = as.numeric(trimws(sn))) %>%
+dplyr::select(sn)
+# Get nombre sensor
+sensor <- f %>%
+filter(stringr::str_detect(value, "Iniciar descripción")) %>%
+separate(value, into = c("name", "sensor_name"), sep = ":") %>%
+unique() %>%
+mutate(sensor_name = trimws(sensor_name)) %>%
+dplyr::select(sensor_name)
+# Get hora de inicio
+inicio <- f %>%
+filter(stringr::str_detect(value, "Tiempo de inicio")) %>%
+separate(value, into = c("name", "start"), sep = "inicio: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>%
+unique() %>%
+mutate(tz = lubridate::tz(start_time)) %>%
+dplyr::select(
+start_time_raw = start,
+start_time, tz_start = tz
+)
+# Get hora de fin
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(end_time = parsedate::parse_date(fin)) %>%
+mutate(tz = lubridate::tz(end_time)) %>%
+slice(which.max(end_time)) %>%
+dplyr::select(
+end_time_raw = fin,
+end_time, tz_end = tz
+)
+# unir todos
+out <- bind_cols(sensor, sn, inicio, fin)
+return(out)
+}
+# Read files
+lf <- list.files(here::here("data/detail_hobo/"), full.names = TRUE)
+# Get metatada
+md <- map_dfr(lf, metadataTidbit)
+# Export metadata
+write_csv(md, path = here::here("data/sensor_metadata.csv"))
+# Function para procesar los metadatos de los sensores Tidbit
+library("tidyverse")
+library("here")
+library("parsedate")
+library("purrr")
+metadataTidbit <- function(file) {
+raw <- tibble::enframe(read_lines(file))
+# Me quedo solo con la variable que necesito
+f <- raw %>% dplyr::select(value)
+#  Get numero de serie
+sn <- f %>%
+filter(stringr::str_detect(value, "Número de serie")) %>%
+separate(value, into = c("name", "sn"), sep = ":") %>%
+unique() %>%
+mutate(sn = as.numeric(trimws(sn))) %>%
+dplyr::select(sn)
+# Get nombre sensor
+sensor <- f %>%
+filter(stringr::str_detect(value, "Iniciar descripción")) %>%
+separate(value, into = c("name", "sensor_name"), sep = ":") %>%
+unique() %>%
+mutate(sensor_name = trimws(sensor_name)) %>%
+dplyr::select(sensor_name)
+# Get hora de inicio
+inicio <- f %>%
+filter(stringr::str_detect(value, "Tiempo de inicio")) %>%
+separate(value, into = c("name", "start"), sep = "inicio: ") %>%
+mutate(start_time = parsedate::parse_date(start)) %>%
+unique() %>%
+mutate(tz = lubridate::tz(start_time)) %>%
+dplyr::select(
+start_time_raw = start,
+start_time, tz_start = tz
+)
+# Get hora de fin
+fin <- f %>%
+filter(stringr::str_detect(value, "Hora de última muestra:")) %>%
+separate(value, into = c("name", "fin"), sep = "muestra: ") %>%
+mutate(end_time = parsedate::parse_date(fin)) %>%
+mutate(tz = lubridate::tz(end_time)) %>%
+slice(which.max(end_time)) %>%
+dplyr::select(
+end_time_raw = fin,
+end_time, tz_end = tz
+)
+# unir todos
+out <- bind_cols(sensor, sn, inicio, fin)
+return(out)
+}
+# Read files
+lf <- list.files(here::here("data/hobo_detail/"), full.names = TRUE)
+# Get metatada
+md <- map_dfr(lf, metadataTidbit)
+# Export metadata
+write_csv(md, path = here::here("data/sensor_metadata.csv"))
+install.packages("devtools")
+devtools::install_github("RyanLab/microclimloggers")
+library(microclimloggers)
+csv_file <- here::here("data/hobo_last/P39.csv")
+f <- file(csv_file, encoding="UTF-8")
+f
+# Read csv file
+read_csv(f na='', col_types = cols())
+# Read csv file
+read_csv(f, na='', col_types = cols())
+# Read csv file
+read_csv(csv_file, na='', col_types = cols())
+# Read csv file
+f <- read_csv(csv_file, na='', col_types = cols())
+View(f)
+str(f)
+f <- list.files(here::here("data/hobo_last/"), pattern= ".csv", full.names = TRUE)
+f
+preparaHobo <- function(f){
+require(dplyr)
+out <- c()
+for(i in 1:length(f)){
+# Read file
+# Suppress the output see https://github.com/tidyverse/readr/pull/527
+taux <- read_csv(f[i], na='', col_types = cols())
+# Get the name of the sensor and Serial Number
+sensor_name <- str_remove(basename(f[i]), "\\.csv")
+name_sn <- names(dplyr::select(taux, starts_with("Temp")))
+serial <- str_extract(name_sn, "\\d+")
+# Rename variables
+taux <- taux %>%
+rename_all(.funs = funs(str_remove_all(names(taux), "\\d+|[:space:]|[#]"))) %>%
+rename_at(vars(starts_with("Temp")), funs(paste0("Temp")))
+# Create new variables if they do not exist
+taux <- taux %>% mutate(
+GoodBattery = if ("GoodBattery" %in% names(.)) {
+return(GoodBattery)
+} else {return(NA)},
+BadBattery = if ("BadBattery" %in% names(.)) {
+return(BadBattery)
+} else {return(NA)})
+# Convert Date format
+taux <- taux %>% mutate(Date = as.Date(Date, format = "%d/%m/%y"))
+# Add sensor name and Serial Number as variables
+taux <- taux %>% mutate(
+serialNumber = serial,
+sensorName = sensor_name)
+## Delete first and last day
+taux_val <- taux %>%
+filter(.data$Date != min(.data$Date)) %>%
+filter(.data$Date != max(.data$Date))
+out <- bind_rows(out, taux_val)
+# assign(sensor_name, taux)
+}
+return(out)
+}
+preparaHobo(f)
+ff <- preparaHobo(f)
+ee <- read_lines(f, n_max = 2)
+ee
+con <- file(f, encoding="UTF-8")
+header <- readLines(con=con, n=2)
+close(con)
+header
+# Read header
+h <- file(f, encoding="UTF-8")
+# Read header
+con <- file(f, encoding="UTF-8")
+header <- readLines(con=con, n=2)
+close(con)
+header
+# Split up the secon header line
+h <- str_split(header[2], '",\\"')
+h
+# Split up the secon header line
+h <- unlist(str_split(header[2], '",\\"'))
+h
+# Extract serial number
+sn <- stringr::str_extract(h, '(?<=S\\/N:\\s)[0-9]+')
+sn
+# Extract serial number
+sns <- stringr::str_extract(h, '(?<=S\\/N:\\s)[0-9]+')
+sn <- unique(sns[!is.na(sns)])
+sn
+str(sn)
+sn <- as.number(unique(sns[!is.na(sns)]))
+sn <- as.numeric(unique(sns[!is.na(sns)]))
+sn
+if(length(sn) > 1) stop("multiple serial numnbers in file header")
+header

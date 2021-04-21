@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml system="https://pasta.edirepository.org" xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+    <access system="https://pasta.edirepository.org" scope="document" order="allowFirst" authSystem="https://pasta.edirepository.org/authentication">
+        <allow>
+            <principal>https://github.com/ajpelu</principal>
+            <permission>all</permission>
+        </allow>
+        <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+        </allow>
+    </access>
+    <dataset>
+        <title>Hourly soil temperature data from Juniper-thicket ecosystems of Sierra Nevada LTER (Spain)</title>
+        <creator>
+            <individualName>
+                <givenName>Antonio Jesús</givenName>
+                <surName>Pérez-Luque</surName>
+            </individualName>
+            <organizationName>Laboratory of Ecology, Andalusian Institute for Earth System Research - University of Granada</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <deliveryPoint>Centro Andaluz de Medio Ambiente. Avda. Mediterráneo s/n </deliveryPoint>
+                <city>Granada</city>
+                <administrativeArea>GRANADA</administrativeArea>
+                <postalCode>18006</postalCode>
+                <country>Spain</country>
+            </address>
+            <phone phonetype="voice">+34 958249758</phone>
+            <electronicMailAddress>ajpelu@gmail.com</electronicMailAddress>
+            <onlineUrl>http://ajperezluque.com</onlineUrl>
+            <userId directory="https://orcid.org">0000-0002-1747-0469</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Regino</givenName>
+                <surName>Zamora Rodríguez</surName>
+            </individualName>
+            <organizationName>Department of Ecology. University of Granada</organizationName>
+            <positionName>Professor</positionName>
+            <address>
+                <deliveryPoint>Departamento de Ecología. Facultad de Ciencias, Avda. Fuentenueva, s/n</deliveryPoint>
+                <city>Granada</city>
+                <postalCode>18071</postalCode>
+                <country>Spain</country>
+            </address>
+            <electronicMailAddress>rzamora@ugr.es</electronicMailAddress>
+            <userId directory="https://orcid.org">0000-0002-5049-9968</userId>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Antonio Jesús</givenName>
+                <surName>Pérez-Luque</surName>
+            </individualName>
+            <organizationName>Laboratory of Ecology, Andalusian Institute for Earth System Research - University of Granada</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <deliveryPoint>Centro Andaluz de Medio Ambiente. Avda. Mediterráneo s/n </deliveryPoint>
+                <city>Granada</city>
+                <administrativeArea>GRANADA</administrativeArea>
+                <postalCode>18006</postalCode>
+                <country>Spain</country>
+            </address>
+            <phone phonetype="voice">+34 958249758</phone>
+            <electronicMailAddress>ajpelu@gmail.com</electronicMailAddress>
+            <onlineUrl>http://ajperezluque.com</onlineUrl>
+            <userId directory="https://orcid.org">0000-0002-1747-0469</userId>
+        </metadataProvider>
+        <abstract>
+            <para>Hourly temperature data from the ADAPTAMED Juniper-thicket plots located at two contrasting slopes (northern and southern) of Sierra Nevada mountain (Spain). Since 2017 several temperature loggers (n=21) were set up at five different microhabitat within High-mountain scrublands: stone, shrubland (Genista species), shrubland (Juniperus communis), open ground, and wet meadow. The sensors (HOBO TidbiT Temperature Data Logger) were placed at 5 cm depth. They record data every hour. Data were cleaned and validated by range.</para>
+        </abstract>
+        <keywordSet>
+            <keyword keywordType="theme">soil temperature</keyword>
+            <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>high-mountain shrubland</keyword>
+            <keyword keywordType="place">Sierra Nevada (Spain)</keyword>
+            <keyword>ADAPTAMED</keyword>
+        </keywordSet>
+        <intellectualRights>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</intellectualRights>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Temperature data loggers were located in two locations of the Sierra Nevada: the northern site "Acequia de Haza Mesa", where there are currently juniper trees in relatively good condition; and the southern site: "Acequia de Bérchules", where there are no longer any formations of juniper, although there are still scattered junipers. 
+
+Sierra Nevada Mountain site, alpine forests Sierra Nevada (Andalusia, SE Spain), is a mountainous region with an altitudinal range between 860 m and 3482 m a.s.l. covering more than 2000 km2. The climate is Mediterranean, characterized by cold winters and hot summers, with pronounced summer drought (July-August). The annual average temperature decreases in altitude from 12-16ºC below 1500 m to 0ºC above 3000 m a.s.l., and the annual average precipitation is about 600 mm. Additionally, the complex orography of the mountains causes strong climatic contrasts between the sunny, dry south-facing slopes and the shaded, wetter north-facing slopes. Annual precipitation ranges from less than 250 mm in the lowest parts of the mountain range to more than 700 mm in the summit areas. Winter precipitation is mainly in the form of snow above 2000 m of altitude. The Sierra Nevada mountain range hosts a high number of endemic plant species (c. 80; Lorite et al. 2007) for a total of 2,100 species of vascular plants (25% and 20% of Spanish and European flora, respectively), being considered one of the most important biodiversity hotspots in the Mediterranean region. This mountain range has several legal protections: Biosphere Reserve MAB Committee UNESCO; Special Protection Area and Site of Community Importance (Natura 2000 network); and National Park. The area includes 61 municipalities with more than 90,000 inhabitants. The main economic activities are agriculture, tourism, cattle raising, beekeeping, mining, and skiing.</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-3.373889</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-3.228528</eastBoundingCoordinate>
+                    <northBoundingCoordinate>37.101975</northBoundingCoordinate>
+                    <southBoundingCoordinate>37.069931</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>2017-04-22</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>2020-10-08</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+<para>Sensor data is downloaded twice a year, and the status of the sensors is checked.</para>
+</description>
+            <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Antonio Jesús</givenName>
+                <surName>Pérez-Luque</surName>
+            </individualName>
+            <organizationName>Laboratory of Ecology, Andalusian Institute for Earth System Research - University of Granada</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <deliveryPoint>Centro Andaluz de Medio Ambiente. Avda. Mediterráneo s/n</deliveryPoint>
+                <city>Granada</city>
+                <administrativeArea>GRANADA</administrativeArea>
+                <postalCode>18006</postalCode>
+                <country>Spain</country>
+            </address>
+            <phone phonetype="voice">958249758</phone>
+            <electronicMailAddress>ajpelu@gmail.com</electronicMailAddress>
+            <onlineUrl>http://ajperezluque.com</onlineUrl>
+            <userId directory="https://orcid.org">0000-0002-1747-0469</userId>
+        </contact>
+        <contact>
+            <individualName>
+                <givenName>Regino</givenName>
+                <surName>Zamora Rodríguez</surName>
+            </individualName>
+            <organizationName>Departamento de Ecología. Universidad de Granada</organizationName>
+            <address>
+                <deliveryPoint>Centro Andaluz de Medio Ambiente. Avda. Mediterráneo s/n</deliveryPoint>
+                <city>Granada</city>
+                <administrativeArea>GRANADA</administrativeArea>
+                <postalCode>18006</postalCode>
+                <country>Spain</country>
+            </address>
+            <electronicMailAddress>rzamora@ugr.es</electronicMailAddress>
+            <userId directory="https://orcid.org">0000-0002-5049-9968</userId>
+        </contact>
+        <publisher>
+            <individualName>
+                <givenName>Antonio Jesús</givenName>
+                <surName>Pérez-Luque</surName>
+            </individualName>
+            <organizationName>Laboratory of Ecology, Andalusian Institute for Earth System Research - University of Granada</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <deliveryPoint>Centro Andaluz de Medio Ambiente. Avda. Mediterráneo s/n </deliveryPoint>
+                <city>Granada</city>
+                <administrativeArea>GRANADA</administrativeArea>
+                <postalCode>18006</postalCode>
+                <country>Spain</country>
+            </address>
+            <phone phonetype="voice">+34 958249758</phone>
+            <electronicMailAddress>ajpelu@gmail.com</electronicMailAddress>
+            <onlineUrl>http://ajperezluque.com</onlineUrl>
+            <userId directory="https://orcid.org">0000-0002-1747-0469</userId>
+        </publisher>
+        <publisher>
+            <individualName>
+                <givenName>Antonio Jesús</givenName>
+                <surName>Pérez-Luque</surName>
+            </individualName>
+            <organizationName>Laboratory of Ecology, Andalusian Institute for Earth System Research - University of Granada</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <deliveryPoint>Centro Andaluz de Medio Ambiente. Avda. Mediterráneo s/n </deliveryPoint>
+                <city>Granada</city>
+                <administrativeArea>GRANADA</administrativeArea>
+                <postalCode>18006</postalCode>
+                <country>Spain</country>
+            </address>
+            <phone phonetype="voice">+34 958249758</phone>
+            <electronicMailAddress>ajpelu@gmail.com</electronicMailAddress>
+            <onlineUrl>http://ajperezluque.com</onlineUrl>
+            <userId directory="https://orcid.org">0000-0002-1747-0469</userId>
+        </publisher>
+        <publisher>
+            <individualName>
+                <givenName>Regino</givenName>
+                <surName>Zamora Rodríguez</surName>
+            </individualName>
+            <organizationName>Departamento de Ecología. Universidad de Granada</organizationName>
+            <address>
+                <deliveryPoint>Centro Andaluz de Medio Ambiente. Avda. Mediterráneo s/n</deliveryPoint>
+                <city>Granada</city>
+                <administrativeArea>GRANADA</administrativeArea>
+                <postalCode>18006</postalCode>
+                <country>Spain</country>
+            </address>
+            <electronicMailAddress>rzamora@ugr.es</electronicMailAddress>
+            <userId directory="https://orcid.org">0000-0002-5049-9968</userId>
+        </publisher>
+        <project>
+            <title>LIFE ADAPTAMED - Protection of key ecosystem services by adaptive management of Climate Change endangered Mediterranean socioecosystems</title>
+            <personnel>
+                <individualName>
+                    <givenName>Regino</givenName>
+                    <surName>Zamora Rodríguez</surName>
+                </individualName>
+                <organizationName>Departamento de Ecología. Universidad de Granada</organizationName>
+                <address>
+                    <deliveryPoint>Centro Andaluz de Medio Ambiente. Avda. Mediterráneo s/n</deliveryPoint>
+                    <city>Granada</city>
+                    <administrativeArea>GRANADA</administrativeArea>
+                    <postalCode>18006</postalCode>
+                    <country>Spain</country>
+                </address>
+                <electronicMailAddress>rzamora@ugr.es</electronicMailAddress>
+                <userId directory="https://orcid.org">0000-0002-5049-9968</userId>
+                <role>Principal Investigator</role>
+            </personnel>
+            <abstract>
+<para>Climate change constitutes the most important challenge that our society is currently facing. Nowadays, there is a general consensus on the magnitude of the changes in our planet due to the impact caused by human activities. The services that can be provided by natural ecosystems are currently being negatively affected by Climate Change and, on the basis of current data, this affection is expected to increase in the future. Life Adaptamed aims to mitigate the negative effect of Climate Change on key ecosystem services provided by three representative Mediterranean Natural Protected Areas (Cabo de Gata-Níjar Natural Park, Doñana National and Natural Park and Sierra Nevada and Natural Park) to local inhabitants and their socioeconomic sector. To achieve this objective Life Adaptamed’s central actions will follow an adaptive management framework tested in a pilot scale, aimed to improve resilience of the targeted socioecosystems. Communication and dissemination actions will ensure that the project results are effectively spread and fit the objectives established for the transferability of the project. A temporal and spatial multiscale indicator system will be implemented through monitoring the impact of the project actions. Life Adaptamed (LIFE14 CCA/ES/000612) is funded by the European Commission through the Life Program. The project is guided by the Regional Government of Andalusia and several scientific, dissemination and conservationist institutions are also involved. It is considered as basis for the implementation of the Andalusian Global Change Observatories Network, and constitutes a demonstrative initiative to incorporate the ecosystem functioning and services dimension into the adaptive management.</para>
+<para>The project focuses on developing, implementing, monitoring, evaluating and disseminating adaptative management measures, with an ecosystemic approach, addressed to those socio-ecosystems identified as key for the provision of, among others, soil retention, polinization, pastures (net primary production), temperature regulation, water provision, prevention of forest fires and of desertification. These socio-ecosystems and the services they provide are currently being negatively affected by Climate Change (from now CC) and, on the basis of current data, this affection is expected to increase significantly in the future. For this reason, the project actions aim to reduce the negative impact of CC in the NPAs area of influence and their socioeconomic fabric by focusing on implementing specific adaptive measures addressed to those key socio-ecosystems with a major role in the provision of the aforementioned ecosystem services. As a result of this, an increase in the resilience of the concerned socio-ecosystems is expected, in such a way that their future provision of services will also be improved, if compared to the scenario of no intervention.</para>
+</abstract>
+            <award>
+                <funderName>LIFE Programme European Commision</funderName>
+                <awardNumber>LIFE14 CCA/ES/000612</awardNumber>
+                <title>Protection of key ecosystem services by adaptive management of Climate Change endangered Mediterranean socioecosystems</title>
+                <awardUrl>https://ec.europa.eu/environment/life/project/Projects/index.cfm?fuseaction=search.dspPage&amp;n_proj_id=5248</awardUrl>
+            </award>
+        </project>
+        <dataTable>
+            <entityName>sensors_md</entityName>
+            <entityDescription>Metadata of temperature loggers</entityDescription>
+            <physical>
+                <objectName>sensors_md.csv</objectName>
+                <size unit="byte">2886</size>
+                <authentication method="MD5">e1b7fad8ee76c60d272c9f6af997a344</authentication>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>\n</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                            <quoteCharacter>"</quoteCharacter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <url>https://dx.doi.org/10.23728/b2share.1b31cd1247b54ed383f3499cac398822</url>
+            </physical>
+            <attributeList>
+                <attribute>
+                    <attributeName>logger_name</attributeName>
+                    <attributeLabel>logger_name</attributeLabel>
+                    <attributeDefinition>Name of the temperature logger. ESSN_XXX_XX, where ESSN refers to Sierra Nevada, Spain (ESSN), XXX refers to the location (one of BER or HZM), and XX refers to microhabitat and replicate (e.g. E3 is shurblad juniper and replicate 3)</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Name of the temperature logger. ESSN_XXX_XX, where ESSN refers to Sierra Nevada, Spain (ESSN), XXX refers to the location (one of BER or HZM), and XX refers to microhabitat and replicate (e.g. E3 is shurblad juniper and replicate 3)</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>cod_sowing</attributeName>
+                    <attributeLabel>cod_sowing</attributeLabel>
+                    <attributeDefinition>Internal codification of the sensor location</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Internal codification of the sensor location</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>serial_number</attributeName>
+                    <attributeLabel>serial_number</attributeLabel>
+                    <attributeDefinition>Serial number of the logger. This field is used as primary key</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit></unit>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>start_time</attributeName>
+                    <attributeLabel>start_time</attributeLabel>
+                    <attributeDefinition>the first date of the temperature record</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimeDomain></dateTimeDomain>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>end_time</attributeName>
+                    <attributeLabel>end_time</attributeLabel>
+                    <attributeDefinition>the end date of the temperature record</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">dateTime</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+                            <dateTimeDomain></dateTimeDomain>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>time_zone</attributeName>
+                    <attributeLabel>time_zone</attributeLabel>
+                    <attributeDefinition></attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain>
+                                    <codeDefinition>
+                                        <code>Etc/GMT+2</code>
+                                        <definition></definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>loc</attributeName>
+                    <attributeLabel>loc</attributeLabel>
+                    <attributeDefinition>code for location</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain enforced="yes">
+                                    <codeDefinition>
+                                        <code>BER</code>
+                                        <definition> Acequia de Bérchules (southern slope of Sierra Nevada)</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>HZM</code>
+                                        <definition>Haza Mesa (northern slope of Sierra Nevada)</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>microhabitat</attributeName>
+                    <attributeLabel>microhabitat</attributeLabel>
+                    <attributeDefinition>Microhabitat where the logger were located</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain enforced="yes">
+                                    <codeDefinition>
+                                        <code>open ground</code>
+                                        <definition>Open Ground (P)</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>shurbland (Genista)</code>
+                                        <definition>under Genista (G)</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>shurbland (Juniper)</code>
+                                        <definition>under Juniperus (E)</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>stone</code>
+                                        <definition>under stone (R)</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>wet meadow</code>
+                                        <definition>in wet meadow (B)</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>status</attributeName>
+                    <attributeLabel>status</attributeLabel>
+                    <attributeDefinition>the status of the temperature logger</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain enforced="yes">
+                                    <codeDefinition>
+                                        <code>Broken</code>
+                                        <definition></definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>Ok</code>
+                                        <definition></definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>lat</attributeName>
+                    <attributeLabel>lat</attributeLabel>
+                    <attributeDefinition></attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit></unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>long</attributeName>
+                    <attributeLabel>long</attributeLabel>
+                    <attributeDefinition></attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit></unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <caseSensitive>no</caseSensitive>
+            <numberOfRecords>21</numberOfRecords>
+        </dataTable>
+        <dataTable>
+            <entityName>temperature_md</entityName>
+            <entityDescription>Temperature records</entityDescription>
+                        <physical>
+                <objectName>temperature_md.csv</objectName>
+                <size unit="megabyte">2886</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>\n</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                            <quoteCharacter>"</quoteCharacter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <url>https://dx.doi.org/10.23728/b2share.1b31cd1247b54ed383f3499cac398822</url>
+            </physical>
+            <attributeList>
+                <attribute>
+                    <attributeName>id_record</attributeName>
+                    <attributeLabel>id_record</attributeLabel>
+                    <attributeDefinition>id</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain enforced="yes">
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>timestamp</attributeName>
+                    <attributeLabel>timestamp</attributeLabel>
+                    <attributeDefinition>time of the measure</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain enforced="yes">
+                                    <codeDefinition>
+                                        <code>2019-05-22T13:19:44Z</code>
+                                        <definition></definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>temperature</attributeName>
+                    <attributeLabel>temperature</attributeLabel>
+                    <attributeDefinition>soil temperature</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain enforced="yes">
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>validation</attributeName>
+                    <attributeLabel>validation</attributeLabel>
+                    <attributeDefinition></attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain>
+                                    <codeDefinition>
+                                        <code>1</code>
+                                        <definition>validated by range</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute>
+                    <attributeName>serial_number</attributeName>
+                    <attributeLabel>serial_number</attributeLabel>
+                    <attributeDefinition>Serial number of the logger. This field is used to join the logger table</attributeDefinition>
+                    <storageType typeSystem="XML Schema Datatypes">string</storageType>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain enforced="yes">
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <caseSensitive>no</caseSensitive>
+            <numberOfRecords>499304</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <emlEditor app="ezEML" release="2021.04.19"></emlEditor>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>
