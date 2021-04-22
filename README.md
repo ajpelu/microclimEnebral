@@ -1,106 +1,24 @@
 # microclimEnebral
 
-Sensorización del enebral en Sierra Nevada. 
-
-- [Formulario de introducción de datos de las visitas de campo](https://forms.gle/kULKy1tEuW1YsMUc8). En `./forms/visitas_sensores.gform´ se encuentra el formulario. 
-- [Datos de las visitas a campo](). En `./forms/visitas_sensores_records.gsheet´ se encuentra la tabla. 
-
-## Metadatos de los sensores desplegados 
-- De cada sensor es necesaria una información importante (*e.g.* serial number, fecha de inicio, etc) 
-- Se ha creado una función `metadataTidbit()` que obtiene algunos metadatos básicos de cada registrador. En concreto esta función devuelve: 
-
-     - serial number 
-     - nombre dado al sensor 
-     - tiempo de incio del registrador 
-     - tiempo de fin del registrador 
-
-- El script [`R/get_metadata_tidbit.R`](R/get_metadata_tidbit.R) procesa los archivos de detalle que se pueden obtener a partir de cada archivo `.hobo` para obtener los metadatos de todos los registradores y los exporta como un csv (`sensor_metadata.csv`) que se almacena en [`data/sensor_metadata.csv`](data/sensor_metadata.csv). El procedimiento es el siguiente: 
-
-  - Descarga de los datos en el campo (hobo)
-  - Crear una carpeta con los datos brutos por cada fecha de descarga con el nombre YYYY_MM_DD dentro de [`data/hobo_raw`](data/hobo_raw)
-  - Copiar (sobreescribir) los datos brutos a [`data/hobo_last`](data/hobo_last) 
-  - Abrir los archivos de `hobo_last` con el software HOBOWarePro y exportar de cada archivo `.hobo` un txt de sus detalles, y guardarlo en [`data/hobo_detail`](data/hobo_detail) 
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/ajpelu/microclimEnebral/master/doc/exportar_detalles.png" height="300">
-</p>
-
-  - Ejecutar el script [`R/get_metadata_tidbit.R`](R/get_metadata_tidbit.R)
-
-## Lectura de los datos de los sensores 
-
-- Abrimos cada archivo hobo presente en [`data/hobo_last`](data/hobo_last) con HOBOWarePro
-- Exportamos cada archivo `.hobo` como `.csv`. Para ello clicamos en "Export Table Data" 
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/ajpelu/microclimEnebral/master/doc/exportar_data.png" height="300">
-</p>
-
-y luego seleccionamos las variables a exportar 
-<p align="center">
-<img src="https://raw.githubusercontent.com/ajpelu/microclimEnebral/master/doc/exportar_data_variables.png" height="250">
-</p>
-
-- Los datos se guardan en [`data/hobo_last`](data/hobo_last) con formato `.csv`. 
-
-## Generar archivo de datos  
-
-## Workflow 
-
-https://dreampuf.github.io/GraphvizOnline 
-
-```
-digraph G {
-
-  subgraph cluster_0 {
-    /*style=filled;
-    color=lightgrey;*/
-    node [style=filled];
-    hobo_raw -> hobo_last -> HOBOWare -> hobo_details;
-    hobo_details -> gmd; 
-    gmd -> sensor_metadata;
-    label = "Get metadata \nfrom Hobo files";
-  }
-
-hobo_raw[shape=box]; 
-hobo_last[shape=box];
-hobo_details[shape=box,label="/hobo_details\n sensorDetalles.txt"];
-HOBOWare[shape=hexagon,sytle=filled,color=".5 .2 1.0"];
-gmd[label="get_metadata_tidbit.R",color="steelblue2",shape="box"];
-
-  subgraph cluster_1 {
-    node [style=filled];
-    hobo_csv -> bulkRead; 
-    bulkRead -> readHobo; 
-    bulkRead -> validate;
-    label = "Read data";
-  }
-
-hobo_csv[shape=box,label="/hobo_last\n sensorName.csv"];
-bulkRead[color="steelblue2",shape=box,label="bulk Read.R"]
-readHobo[label="readHobo.R",color="steelblue2",shape=box];
-validate[label="Validate by range", shape=box]
+[![DOI](https://img.shields.io/badge/DOI-10.23728/B2SHARE.1B31CD1247B54ED383F3499CAC398822-blue.svg)](https://doi.org/10.23728/B2SHARE.1B31CD1247B54ED383F3499CAC398822)
 
 
-  subgraph cluster_2 {
-      node[style=filled];
-      temp -> tempMD[style="invis"];
-      tempMD -> tempSpatial[style="invis"];
-      label = "generate RDS"
-
-temp[label="temp_microenebral.rds",color=yellowgreen,style=filled]
-tempSpatial[label="temp_microenebral_spatial.rds",color=yellowgreen,style=filled]
-tempMD[label="temp_microenebral_md.rds",color=yellowgreen, style=filled]
-
-validate -> temp;
-readHobo -> temp;
-bulkRead -> tempSpatial;
-bulkRead -> tempMD;
-
-  } 
+This repository contains information about the dataset: 
+Hourly temperature data from the ADAPTAMED Juniper-thicket plots located at two contrasting slopes (northern and southern) of Sierra Nevada mountain (Spain). Since 2017 several temperature loggers (n=21) were set up at five different microhabitat within High-mountain scrublands: stone, shrubland (Genista species), shrubland (Juniperus communis), open ground, and wet meadow. The sensors (HOBO TidbiT Temperature Data Logger) were placed at 5 cm depth. They record data every hour. Data were cleaned and validated by range.
 
 
-HOBOWare -> hobo_csv
-}
-```
+## Data availability 
+The data are availabe at: 
+10.23728/b2share.1b31cd1247b54ed383f3499cac398822 
+
+## Data Policies 
+The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. Permission to use this dataset is granted to the Data User free of charge subject to the following terms: 1) Acceptable use. Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not-for-profit professional purposes. The Data User is permitted to produce and distribute derived works from this dataset provided that they are released under the same license terms as those accompanying this Data Set. Any other uses for the Data Set or its derived products will require explicit permission from the dataset owner. 2) Redistribution. The data are provided for use by the Data User. The metadata and this license must accompany all copies made and be available to all users of this Data Set. The Data User will not redistribute the original Data Set beyond this collaboration sphere. 3) Citation. It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. 4) Acknowledgement. The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. 5) Collaboration. The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. By accepting this Data Set, the Data User agrees to abide by the terms of this agreement. The Data Owner shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Disclaimer While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available "as is". The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.
+
+## Citation 
+Data should be cited as: 
+Pérez-Luque, A. J., and Zamora, R. (2021). Hourly soil temperature data from Juniper-thicket ecosystems of Sierra Nevada LTER (Spain) [Data set].  https://doi.org/10.23728/B2SHARE.1B31CD1247B54ED383F3499CAC398822
+
+
+
+
 
