@@ -28,6 +28,7 @@ saveRDS(metadata_temp, file = here::here("data/temp_microenebral_md.rds"))
 # Read spatial info 
 library(sf) 
 sensor_spa <- st_read(here::here("data/hobo_spatial/microclimEnebral.shp"))
+
 # transform to epsg 4326 
 s <- st_transform(sensor_spa, 4326)
 

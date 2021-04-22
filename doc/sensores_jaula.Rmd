@@ -1,0 +1,43 @@
+---
+title: "Sensores Temperatura y Humedad (LIFE-ADAPTAMED)"     
+output: pdf_document 
+author: Antonio J. Pérez-Luque
+date: updated at Marzo 2019
+---
+
+# Sensores de temperatura
+Los sensores que se han puesto de temperatura son data logger [HOBO UTBI-001 TidbiT V2](http://www.onsetcomp.com/products/data-loggers/utbi-001)
+
+
+* Correspondencia sensores hobbo y jaulas 
+
+```{r, echo = FALSE, message=FALSE}
+library("here")
+library("pander")
+sensores <- read.csv(here::here("/data/sensorCorrespondence.csv"), header = TRUE)
+
+knitr::kable(sensores)
+```
+
+# Descarga de datos desde HOBOWare Pro
+
+Ajustamos preferencias en el software HOBOWarePro para la exportación de datos del formato `.hobo` a `.csv`
+
+* Export type: `.txt or .csv`
+* sep: `,`  (comma)
+* [x] Separate data and time into two columns
+* [x] No quotes or commas in headings, properties in parentheses
+* [x] Include sensore serial number of label if available 
+* Date format: DMY (28/08/18)
+* Date separator: Slash (/)
+* Time format: 24-Hour 
+* Positive number format: 1,234.56
+* Negative number format: -123
+
+Usar la herramienta (plugin) ***Bulk export*** para exportar todos los archivos 
+
+# Sensores de humedad
+* Aun sin colocar 
+
+
+
