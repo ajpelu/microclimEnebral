@@ -1,0 +1,2 @@
+network_id,network_code,network_name,network_manager,network_status,data_policy,url
+18,ADAPTAMED,Red de sensores de temperatura del proyecto LIFE-ADAPTAMED,"Laboratorio de Ecología - IISTA-CEAMA, Universidad de Granada",Activa,https://obsnev.es/apps/adaptamed/metadatos/microclim-enebral/microclimEnebral.html,https://doi.org/10.23728/B2SHARE.1B31CD1247B54ED383F3499CAC398822

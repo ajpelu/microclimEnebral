@@ -55,3 +55,4 @@ temperaturecsv %>%
   mutate(timestamp = as.POSIXct(timestamp, format="%Y-%m-%d %H:%M:%S")) %>% 
   write_csv(here::here("db/temperature_md.csv"))
 
+dbDisconnect(conection)
